@@ -4,7 +4,7 @@ import sys
 import cv2
 import numpy as np
 import tensorflow as tf
-from .bust_detector import Detector
+from .detector import Detector
 
 IMAGE_SIZE = 28
 NUM_CLASSES = 2
